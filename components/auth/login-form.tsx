@@ -35,6 +35,7 @@ export const LoginForm = () => {
 
     Login(values).then((data) => {
           setError(data?.error);
+          setSuccess(data?.success)
        
   }) 
 };
